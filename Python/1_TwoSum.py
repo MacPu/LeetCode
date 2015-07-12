@@ -1,5 +1,7 @@
 __author__ = 'MacPu'
 
+#思路是利用字典，将num保存成一个key，sum1 ＋ sum2 ＝ target， => sum2 ＝ target － sum1,最后只需要看字典里是否有这个key即可，
+
 class Solution:
     def twoSum(self, nums, target):
         lookup = {}

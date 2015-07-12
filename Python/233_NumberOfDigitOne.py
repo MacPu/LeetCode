@@ -2,6 +2,10 @@ __author__ = 'MacPu'
 
 #思路就是计算有多少个1，有多少个10，多少个100，以此类推
 
+#principle:
+#count how many 1,how many 10, and  how many 100........finially get sum total
+
+
 import  time
 
 class Solution:

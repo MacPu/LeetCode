@@ -1,5 +1,7 @@
 __author__ = 'MacPu'
 
+#思路：这道题没有难点，主要就是要保存一个进位
+
 class ListNode:
     def __init__(self, x):
         self.val = x
