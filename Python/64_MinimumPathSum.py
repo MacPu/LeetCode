@@ -22,7 +22,7 @@ class Solution:
             for j in range(1,col):
                 grid[i][j] += min(grid[i-1][j],grid[i][j-1])
 
-        return grid[m-1][n-1]
+        return grid[row-1][col-1]
 
 if __name__ == '__main__':
     print "min path sum is %d" % Solution().minPathSum([[2, 7, 11, 15], [1,4,3,5],[3,4,5,1]])
